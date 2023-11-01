@@ -14,6 +14,6 @@
 
 For a more detailed list of its features, visit my portfolio and click on [HomeFinder](https://mmcdev.pro/portfolio) project
 
-# [Live Preview](https://homefinder-pied.vercel.app)
+# [Live Preview](https://homefinder-1.vercel.app/)
 
 ![HomeFinder Preview](project2.png)
