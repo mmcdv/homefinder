@@ -1,0 +1,198 @@
+:root {
+  --thm-light-green: #b4ca89;
+  --thm-dark-green: #66967C;
+  --thm-green2: #3F5655;
+
+  
+
+  --thm-primary: #3c6e71;
+  --thm-light: #E7E4E4;
+  --thm-gray-2: #d9d9d9;
+  --thm-blue-2: #284b63;
+  --thm-dark: #353535;
+  --thm-border-color: #e3e3e39a;
+  --thm-btn-hover-bg: #171C25;
+
+  --thm-btn-border-radius: 12px;
+
+  --thm-mobile-width: 672px;
+  --thm-mobile-height: ;
+  --thm-mobile-width-sm: ;
+  --thm-mobile-width-sm: ;
+  --thm-tablet-width: 990px;
+  --thm-tablet-height: ;
+
+}
+
+@font-face {
+  font-family: 'Bricolage';
+  src: url(/BricolageGrotesque.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+@media (max-height: 690px) { 
+  body {
+    overflow-y: scroll;
+  }
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Bricolage', sans-serif !important;
+}
+
+.bg_img {
+  /* Your existing styles */
+  transition: opacity 0.5s ease;
+}
+
+.bg_img.loaded {
+  opacity: 1;
+}
+
+
+.loading-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+aside {
+  height: 100%;
+  padding: 15px;
+  background-color: #284b63;
+  border-radius: 15px;
+}
+
+.bg_img {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(35%);
+}
+
+.home_btn, .home_btn2 {
+  box-shadow: 0 5px 10px 1px #262626be !important;
+}
+
+.sidenav-btn {
+  color: #f9f9f9 !important;
+  padding: 15px 10px !important;
+  border-color: transparent !important;
+  transition: 0.5s ease;
+}
+
+.sidenav-btn:hover {
+  color: #f9f9f9 !important;
+  background-color: #ececec2f !important;
+  border-color:  transparent !important;
+}
+
+.sidenav-btn.active {
+  background-color: #f9f9f9 !important;
+  color: #284b63 !important;
+  border-radius: 10px;
+}
+
+.extend-btn {
+  border: none !important;
+  color: #000 !important;
+}
+.inner-sidenav-btn {
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-layout {
+  height: 100vh;
+  width: 100%;
+}
+
+.filter-input:focus {
+  outline: none !important;
+  color: #000 !important;
+  border-color: #000 !important;
+  background-color: #000 !important;
+}
+
+.filtermenu-container {
+  position: relative;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.filter-parent {
+  position: relative;  
+}
+
+.filter-container {
+  width: 400px;
+  height: 540px;
+  position: absolute;
+  box-shadow: 0 0 10px 3px #bababa7f;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  left: 24%;
+  z-index: 1;
+}
+@media (max-width: 482px) {
+
+  .filter-container{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 62%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+  }
+}
+.more-filters-box {
+  border: none;
+  position: relative;
+  overflow-x: hidden;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+
+.houselist-desc {
+  display: flex;
+  align-items: center;
+}
+
+.page-content-container {
+  width: 100%;
+}
+
+
+.carousel-cust {
+  height: 250px;
+}
+
+.active-tool-btn {
+  background-color: #284b63 !important;
+  color: #f9f9f9 !important;
+}
+
+.ratebox {
+  /* border-right: 2px solid #93978828; */
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-box {
+  
+}
