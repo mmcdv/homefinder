@@ -16,4 +16,4 @@ For a more detailed list of its features, visit my portfolio and click on [HomeF
 
 # [Live Preview](https://homefinder-1.vercel.app/)
 
-![HomeFinder Preview](project2.png)
+![HomeFinder Preview](project.png)
