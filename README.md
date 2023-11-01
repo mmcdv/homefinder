@@ -6,6 +6,7 @@
 
 # Features
   - Uses RapidAPI (Realtor.com) to find homes in your area
+  - Secure login system using Auth0
   - Financial tools to determine your rates/affordability
   - Fully responsive design for mobile and web browsers
   - Save & retrieve favorite listings using session data
